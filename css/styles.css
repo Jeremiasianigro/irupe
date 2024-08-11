@@ -1,3 +1,18 @@
+/* Mobile-first styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid,
+.navbar,
+.main {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
 .video-container {
     display: flex;
     justify-content: center;
@@ -6,11 +21,29 @@
 
 .card {
     border: none; /* Elimina el borde de las cards */
-    margin-bottom: 20px;
 }
 
 .card img {
     width: 100%;
     height: auto;
     object-fit: cover;
+    border-radius: 0; /* Asegúrate de que las imágenes no tengan bordes redondeados */
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+    h2 {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .video-container iframe {
+        width: 70%; /* Aumenta el tamaño del video en pantallas más grandes */
+        height: auto;
+    }
 }
