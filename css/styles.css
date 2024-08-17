@@ -1,49 +1,111 @@
-/* Mobile-first styles */
-body, html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body {
+    
+    background-color: rgb(237, 244, 237); 
 }
 
-.container-fluid,
-.navbar,
-.main {
-    padding-left: 0;
-    padding-right: 0;
+.principal {
+    position: relative;
+    overflow: hidden;
+    height: 100vh;
     margin: 0;
+    padding: 0;
+    color: #0d7c3d; 
 }
 
 .video-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Esto evita que el video interfiera con el texto */
+    z-index: -1; /* Coloca el video detrás del texto */
+}
+
+.principal iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.principal h1, .principal h2 {
+    position: relative;
+    text-align: center;
+    color: #0d7c3d;
+}
+
+.principal h1 {
+    font-size: 60px;
+}
+
+.principal h2 {
+    font-size: 40px;
+}
+.direccion {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 20px; /* Espacio entre los elementos */
+    margin-top: 50px; /* Ajusta el margen superior según sea necesario */
 }
 
+.direccion a {
+    text-decoration: none; /* Elimina el subrayado de los enlaces */
+    color:#7fc89f; /* Mantiene el color del texto del h2 */
+}
+
+.direccion h2 {
+    margin: 0; /* Elimina los márgenes predeterminados de h2 */
+}
+.card-img-top {
+    width: 80%; /* Hace que la imagen sea un 20% más pequeña */
+    height: auto; /* Mantiene la proporción original de la imagen */
+    display: block; /* Asegura que la imagen se muestre como un bloque */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
 .card {
-    border: none; /* Elimina el borde de las cards */
+    position: relative; /* Necesario para la posición absoluta del contenido adicional */
 }
 
-.card img {
+.card-link {
+    display: block;
+    position: relative;
+}
+
+.card-img-top {
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: auto; /* Mantiene la proporción original de la imagen */
+}
+
+.card-info {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    height: auto;
-    object-fit: cover;
-    border-radius: 0; /* Asegúrate de que las imágenes no tengan bordes redondeados */
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    padding: 20px;
+    text-align: center;
 }
 
-h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+.card-link:hover .card-info {
+    opacity: 1; /* Muestra la información al pasar el ratón */
 }
 
-@media (min-width: 768px) {
-    h2 {
-        font-size: 2rem;
-    }
+.card-info .btn {
+    margin-top: 10px;
 }
 
-@media (min-width: 992px) {
-    .video-container iframe {
-        width: 70%; /* Aumenta el tamaño del video en pantallas más grandes */
-        height: auto;
-    }
-}
