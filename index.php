@@ -13,20 +13,17 @@
 </head>
 <body>
     <header>
-    <section class="BarraNavegacion">
+        <!-- seccion NavBar -->
+        <section class="BarraNavegacion">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <!-- Reemplaza el texto por una imagen -->
-            <a class="navbar-brand" href="#">
-                <img src="img/LogoTransparente.png" alt="Logo IRUPE" class="navbar-logo">
-            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">IRUPE</a>
+                        <a class="nav-link active" aria-current="page" href="#">IRUPÉ</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Quienes Somos</a>
@@ -41,10 +38,15 @@
                         </ul>
                     </li>
                 </ul>
+                <!-- Mueve el logo aquí para que esté a la derecha -->
+                <a class="navbar-brand ms-auto" href="#">
+                    <img src="img/LogoTransparente.png" alt="Logo IRUPE" class="navbar-logo">
+                </a>
             </div>
         </div>
     </nav>
 </section>
+
 
     </header>
     <main>
@@ -60,9 +62,9 @@
 
 
         <section class="direccion">
-            <a href="pagina-a.html"><h2>AUDIVISUAL</h2></a>
-            <a href="pagina-b.html"><h2>TEATRO</h2></a>
-            <a href="pagina-c.html"><h2>EQUIPO</h2></a>
+            <a href="html/audiovisual.html"><h2>AUDIVISUAL</h2></a>
+            <a href="html/teatro.html"><h2>TEATRO</h2></a>
+            <a href="html/equipo.html"><h2>EQUIPO</h2></a>
             <a href="pagina-d.html"><h2>CONTACTO</h2></a>
         </section>
 

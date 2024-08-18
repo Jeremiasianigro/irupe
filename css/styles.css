@@ -3,18 +3,29 @@
     font-weight: 400;
     font-style: normal;
 }
-
 body {
-    background-color: rgb(237, 244, 237); 
+    background-color: rgb(237, 244, 237);
+    padding-top: 70px;
 }
+
 .navbar-logo {
-    height: 60px; /* Ajusta la altura del logo según tus necesidades */
+    height: 100px; /* Ajusta la altura del logo según tus necesidades */
     width: auto; /* Mantiene la proporción original del logo */
     max-height: 100%; /* Asegura que el logo no se desborde fuera del contenedor */
+    
 }
+.BarraNavegacion {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /* Asegura que el navbar ocupe todo el ancho de la pantalla */
+    z-index: 1050; /* Asegura que el navbar esté por encima de otros elementos */
+}
+
 
 
 .principal {
+    margin-top: 100px;
     position: relative;
     overflow: hidden;
     height: 100vh;
@@ -39,7 +50,7 @@ body {
 
 .logo-container {
     position: absolute;
-    top: 20px; /* Ajusta el espacio desde la parte superior según sea necesario */
+    top: 40px; /* Ajusta el espacio desde la parte superior según sea necesario */
     right: 20px; /* Ajusta el espacio desde el borde izquierdo según sea necesario */
     z-index: 10; /* Asegura que el logo esté sobre otros elementos */
 }
