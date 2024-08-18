@@ -33,8 +33,8 @@
                             Producciones
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Películas</a></li>
-                            <li><a class="dropdown-item" href="#">Series</a></li>
+                            <li><a class="dropdown-item" href="#">Audivisual</a></li>
+                            <li><a class="dropdown-item" href="#">Teatro</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -75,12 +75,12 @@
                     <!-- Card 1 -->
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <a href="pagina-pelicula-1.html" class="card-link">
-                                <img src="img/1.jpg" class="card-img-top" alt="Película 1">
+                            <a href="html/trainJam.html" class="card-link">
+                                <img src="img/trainJam.jpg" class="card-img-top" alt="Película 1">
                                 <div class="card-info">
                                     <h5 class="card-title">Título de la Película 1</h5>
                                     <p class="card-text">Descripción breve de la película.</p>
-                                    <a href="pagina-pelicula-1.html" class="btn btn-primary">Más información</a>
+                                    <a href="html/trainJam.html" class="btn btn-primary">Más información</a>
                                 </div>
                             </a>
                         </div>
@@ -123,7 +123,7 @@
                     <div class="col-md-4 mb-4">
                         <div class="card">
                             <a href="pagina-serie-1.html" class="card-link">
-                                <img src="img/1.jpg" class="card-img-top" alt="Serie 1">
+                                <img src="img/trainJam.jpg" class="card-img-top" alt="Serie 1">
                                 <div class="card-info">
                                     <h5 class="card-title">Título de la Serie 1</h5>
                                     <p class="card-text">Descripción breve de la serie.</p>

@@ -28,7 +28,7 @@ body {
     margin-top: 100px;
     position: relative;
     overflow: hidden;
-    height: 100vh;
+    height: 70vh;
     margin: 0;
     padding: 0;
     color: #0d7c3d; 
@@ -50,8 +50,9 @@ body {
 
 .logo-container {
     position: absolute;
+    height: 100px;
     top: 40px; /* Ajusta el espacio desde la parte superior según sea necesario */
-    right: 20px; /* Ajusta el espacio desde el borde izquierdo según sea necesario */
+    right: 20px; /* Ajusta el espacio desde el borde derecho según sea necesario */
     z-index: 10; /* Asegura que el logo esté sobre otros elementos */
 }
 
@@ -129,5 +130,36 @@ body {
 
 .card-info .btn {
     margin-top: 10px;
+}
+/* estilo de las paginas secundarias*/
+
+.titulo-imagen-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px; /* Espacio entre la imagen principal, el título y la imagen terciaria */
+    margin-top: 20px; /* Ajusta el margen superior */
+}
+
+.titulo {
+    flex: 1;
+    color: #7fc89f; /* Mantiene el color del texto */
+}
+
+.imagenPrincipal,
+.imagenTerciaria {
+    flex: 1;
+    max-width: 300px; /* Ajusta el tamaño máximo de las imágenes */
+}
+
+.imagenSecundaria {
+    margin-top: 20px;
+    display: block;
+    max-width: 100%;
+    margin-bottom: 20px; /* Espacio adicional debajo de la imagen secundaria */
+}
+
+.descripcion {
+    margin-top: 20px;
+    color: #7fc89f; /* Mantiene el color del texto */
 }
 
