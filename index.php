@@ -28,30 +28,15 @@
     <main>
     <section class="principal">
     <div class="video-container">
-        <!-- este es el video de vigilia solo -->
-    <!-- <div style="padding:41.89% 0 0 0;position:relative;">
-    <iframe src="https://player.vimeo.com/video/200684940?badge=0&amp;autopause=0&amp;autoplay=1&amp;muted=1&amp;player_id=0&amp;app_id=58479" 
-        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-        style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VIGILIA trailer"></iframe>
-</div> -->
-
-
-<!-- probando el loop de video -->
-<div style="padding:41.89% 0 0 0;position:relative;">
-    <iframe id="video1" src="https://player.vimeo.com/video/200684940?badge=0&amp;autopause=0&amp;autoplay=1&amp;muted=1&amp;loop=0&amp;player_id=0&amp;app_id=58479" 
-        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-        style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VIGILIA trailer"></iframe>
-</div>
-
-<div style="padding:41.89% 0 0 0;position:relative; margin-top: 20px;">
-    <iframe id="video2" src="https://player.vimeo.com/video/995070467?h=cc822121d5&badge=0&amp;autopause=0&amp;autoplay=0&amp;muted=1&amp;loop=0&amp;player_id=1&amp;app_id=58479" 
-        frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-        style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Segundo Video"></iframe>
-</div>
+         <div style="padding:41.89% 0 0 0;position:relative;">
+            <iframe src="https://player.vimeo.com/video/200684940?badge=0&amp;autopause=0&amp;autoplay=1&amp;muted=1&amp;player_id=0&amp;app_id=58479" 
+                frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VIGILIA trailer">
+            </iframe>
+    </div> 
 
 
 
-    </div>
     <!-- Reemplaza el texto por una imagen -->
     <div class="logo-container">
         <img src="img/LogoTransparente.png" alt="Logo IRUPE" class="logo-image">

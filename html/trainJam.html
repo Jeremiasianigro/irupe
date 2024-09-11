@@ -9,105 +9,75 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/stylesindiv.css">
     <title>Películas IRUPE</title>
 </head>
 <body>
     <header>
         <!-- seccion NavBar -->
         <section class="BarraNavegacion">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">IRUPÉ</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Producciones
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Audivisual</a></li>
-                            <li><a class="dropdown-item" href="#">Teatro</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <!-- Mueve el logo aquí para que esté a la derecha -->
-                <a class="navbar-brand ms-auto" href="#">
-                    <img src="../img/LogoTransparente.png" alt="Logo IRUPE" class="navbar-logo">
-                </a>
-            </div>
+            <a class="navbar-brand mx-auto" href="../index.php">
+                <img src="../img/LogoTransparente.png" alt="Logo IRUPE" class="navbar-logo">
+            </a>
         </div>
     </nav>
 </section>
-
 
     </header>
     <main>
     <section class="principal">
         <div class="video-container">
-            <iframe src="https://www.youtube.com/embed/werRXDSj6U8?autoplay=1&mute=1&loop=1&playlist=werRXDSj6U8&controls=0&showinfo=0&modestbranding=1&iv_load_policy=3&rel=0&fs=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <!-- este es el nuevo video de TRAIN JAM -->
+            <div style="padding:56.25% 0 0 0;position:relative;">
+                <iframe src="https://player.vimeo.com/video/1003239295?badge=0&amp;autopause=0&amp;autoplay=1&amp;muted=1&amp;loop=1&amp;player_id=0&amp;app_id=58479" 
+                    frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                    style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                    title="TRAIN JAM TRAILER SUB INGLES- 26.02.23- (1)">
+                </iframe>
+            </div> 
         </div>
-        
     <!-- Reemplaza el texto por una imagen -->
     <div class="logo-container">
         <img src="../img/LogoTransparente.png" alt="Logo IRUPE" class="logo-image">
     </div>
+    </div>
+    <!-- Texto indicativo de la sección -->
+    <div class="section-label">Series</div>
 </section>
 
 
-        <section class="direccion">
-            <a href="html/audiovisual.html"><h2>AUDIVISUAL</h2></a>
-            <a href="html/teatro.html"><h2>TEATRO</h2></a>
-            <a href="html/equipo.html"><h2>EQUIPO</h2></a>
-            <a href="pagina-d.html"><h2>CONTACTO</h2></a>
-        </section>
+<section class="direccion">
+    <a href="../html/films.html"><h2>FILMS</h2></a>
+    <a href="../html/series.html" class="active"><h2>SERIES</h2></a>
+    <a href="../html/teatro.html"><h2>TEATRO</h2></a>
+    <a href="../html/equipo.html"><h2>EQUIPO</h2></a>
+    <a href="../html/contacto.html"><h2>CONTACTO</h2></a>
+</section>
 
-        <section class="titulo">
+<h1>maquetando los individuales</h1>
+<section class="flex-container">
+    <div class="caja caja1">
+        caja 1
+        <div class="sub caja11"></div>
+        <div class="sub caja12"></div>
+    </div>
+    <div class="caja caja2">
+        caja 2
+        <div class="sub caja21"></div>
+        <div class="sub caja22"></div>
+        <div class="sub caja23"></div>
+        <div class="sub caja24"></div>
+    </div>
+    <div class="caja caja3">
+        caja 3
+        <div class="sub caja31"></div>
+        <div class="sub caja32"></div>
+    </div>
+</section>
 
-            <h1>TRIAN JAM,</h1>
-            <h1>ESCAPE DEL VIDEOJUEGO</h1>
-
-        </section>
-        
-        <section class="titulo-imagen-container">
-            <section class="imagenPrincipal">
-                <img src="../img/trainJam.jpg" alt="">
-            </section>
-            <section class="titulo">
-                <h1>TRAIN JAM,</h1>
-                <h1>ESCAPE DEL VIDEOJUEGO</h1>
-                <section class="descripcion">
-                    <h2>Sinopsis</h2>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quis mollitia esse,
-                        ratione reiciendis eaque sunt odio autem est fuga doloribus a voluptatibus, 
-                        doloremque illum voluptatem non consectetur placeat unde.</p>
-                     
-                    <h2>Elenco</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. In quam inventore natus ducimus
-                         eius vitae suscipit dolores rerum? 
-                        Maxime dolor labore non? Ab magni hic illo enim obcaecati, corrupti sit!</p>
-                    <h2>Equipo</h2>
-                    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, aliquam quidem non dolorem ab
-                        dolor veritatis id magnam obcaecati delectus totam repellat, eveniet consequatur in veniam porro 
-                        accusamus, laborum corporis!</p>  
-                </section>
-            </section>
-            <section class="imagenTerciaria">
-                <img src="../img/trainJamTer.jpg" alt="">
-            </section>
-        </section>
-        
-        <section class="imagenSecundaria">
-            <img src="../img/trainJamSec.jpg" alt="">
-        </section>
-        
+  
                     
     </main>
 
