@@ -1,0 +1,17 @@
+.contenedorPrincipal {
+    display: flex;
+    align-items: center; /* Alinea verticalmente la imagen y el título */
+    justify-content: flex-start; /* Alinea los elementos a la izquierda */
+}
+
+.imagenPrincipal img {
+    margin-top: 60px;
+    max-width: 100%; /* Asegura que la imagen no se extienda más allá del contenedor */
+    height: auto; /* Mantiene las proporciones de la imagen */
+}
+
+.titulo h1 {
+    margin-left: 20px; /* Ajusta el espacio entre la imagen y el título */
+    font-size: 6rem; /* Ajusta el tamaño de la fuente del título según tu diseño */
+    color: #006400;
+}
