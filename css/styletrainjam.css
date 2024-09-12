@@ -107,7 +107,7 @@
     color: #4f836f;
     font-size: 3.5rem; /* El título principal, más grande */
     text-align: left;   /* Alineado a la izquierda */
-    line-height: 1.5;   /* Espacio entre líneas */
+    line-height: 1;   /* Espacio entre líneas */
     margin-bottom: 15px; /* Espacio inferior para separar el título del subtítulo */
 }
 
@@ -142,7 +142,7 @@
     height: auto;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Dos columnas de igual tamaño */
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas de igual tamaño */
     gap: 20px; /* Espacio entre columnas */
 }
 
