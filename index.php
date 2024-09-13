@@ -59,12 +59,11 @@
                     <!-- Card 1 -->
                     <div class="col-md-4 mb-4">
                         <div class="card">
-                            <a href="html/trainJam.html" class="card-link">
+                            <a href="html/templateIndiv.htm" class="card-link">
                                 <img src="img/trainJam.jpg" class="card-img-top" alt="Película 1">
                                 <div class="card-info">
                                     <h5 class="card-title">Título de la Película 1</h5>
-                                    <p class="card-text">Descripción breve de la película.</p>
-                                    <a href="html/trainJam.html" class="btn btn-primary">Más información</a>
+                                    
                                 </div>
                             </a>
                         </div>

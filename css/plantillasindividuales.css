@@ -169,3 +169,40 @@
 #col3 {
     grid-column: 3; /* Ubica este texto en la tercera columna */
 }
+
+.flex-container-footer{
+    border: 1px solid black;
+    background-color: brown;
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alinea las sub-cajas verticalmente */
+    align-items: center;
+    flex-wrap: nowrap; /* Asegura que las cajas principales no se envuelvan */
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+    height: auto; /* Ajusta según tus necesidades */
+    gap: 10px; /* Espacio entre las cajas principales */
+}
+.caja1-footer, .caja2-footer{
+    border: 3px solid black;
+    background-color: aqua;
+    width: 50%; /* Ajusta según el tamaño deseado */
+    height: auto;
+    display: flex;
+    
+    position: relative;
+    padding: 10px; /* Ajusta según el diseño deseado */
+    box-sizing: border-box; /* Asegura que el padding y border se incluyan en el tamaño total */
+}
+.caja1-footer{
+    width: 15%;
+    height: auto;
+}
+.caja1-footer img{
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+}
+.caja2-footer{
+    width: 20%;
+    height: auto;
+}
