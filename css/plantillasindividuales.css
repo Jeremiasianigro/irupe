@@ -136,3 +136,36 @@
     font-weight: bold; /* Negrita para el texto después de los dos puntos */
     
 }
+.caja24 {
+    grid-column: 1 / span 2; /* Esta subcaja ocupará ambas columnas */
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas de igual tamaño */
+    gap: 20px; /* Espacio entre columnas */
+}
+
+.subtitulo2 {
+    grid-column: 1 / span 2; /* El subtítulo ocupará las dos columnas */
+    font-weight: bold; /* Ajusta el grosor del texto */
+    font-family: "Bebas Neue", sans-serif;
+    color: #4f836f;
+    font-size: 2.5rem;  /* Tamaño para el subtítulo "SINOPSIS" */
+    text-align: left;   /* Alinea el subtítulo a la izquierda */
+    line-height: 1.5;   /* Espacio entre líneas */
+    margin-bottom: 10px; /* Espacio inferior para separar del texto */
+    
+}
+
+#col1 {
+    grid-column: 1; /* Ubica este texto en la primera columna */
+}
+
+#col2 {
+    grid-column: 2; /* Ubica este texto en la segunda columna */
+}
+
+#col3 {
+    grid-column: 3; /* Ubica este texto en la tercera columna */
+}

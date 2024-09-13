@@ -1,52 +1,170 @@
-/* Contenedor principal para imágenes y texto */
-.contenedorPrincipal {
+.flex-container {
+   
+    
+    padding: 20px;
     display: flex;
-    flex-direction: column; /* Alinea elementos verticalmente */
-    align-items: center; /* Centra todo horizontalmente */
+    flex-wrap: nowrap; /* Asegura que las cajas principales no se envuelvan */
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+    height: auto; /* Ajusta según tus necesidades */
+    gap: 10px; /* Espacio entre las cajas principales */
 }
 
-.imagenPrincipal img {
-    margin-top: 60px;
-    margin-left: 80px;
-    max-width: 150%;
+.caja {
+   
+    width: 50%; /* Ajusta según el tamaño deseado */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 10px; /* Ajusta según el diseño deseado */
+    box-sizing: border-box; /* Asegura que el padding y border se incluyan en el tamaño total */
+}
+.caja1{
+    display: flex;
+    flex-direction: column; /* Alinea las sub-cajas verticalmente */
+    align-items: center;
+    width: 30%;
+    flex-grow: 1;
+
+
+}
+
+.caja2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crea 2 columnas de igual tamaño */
+    gap: 10px; /* Espacio entre las subcajas */
+    flex-grow: 5;
+}
+
+.sub {
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    text-align: center;
+    margin: 5px;
+}
+
+.caja11 {
+    margin-top: 20px;
+    width: 90%;
+    height: auto;
+
+}
+.caja12 {
+    margin-top: 200px;
+    width: 90%;
+    height: auto;
+}
+ .caja21 {
+    
+    grid-column: 1; /* Asigna esta subcaja a la primera columna */
+    margin-top: 20px;
+    width: 100%; /* Ajusta el ancho al 100% de la columna */
+    height: auto;
+
+}
+
+.caja22{
+    margin-top: 20px;
+    margin-left: 15%;
+    width: 70%; /* Ajusta el ancho al 100% de la columna */
+    height: auto;
+
+}
+.caja23 {
+    grid-column: 1 / span 2; /* Esta subcaja ocupará ambas columnas */
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+#imgPrincipal{
+    margin: 5px;
+    width: 90%;
     height: auto;
 }
 
-.imagenSecundaria img {
-    margin-top: 100px;
-    max-width: 70%;
+#imgSecundaria{
+    margin: 5px;
+    padding: 10%;
+    width: 100%;
     height: auto;
+
+}
+.sinopsis, .titulo, .texto {
+    text-transform: none;
 }
 
-/* Título y texto */
-.titulo-principal {
-    font-size: 2.5rem;
-    font-family: 'Bebas Neue', sans-serif;
-    color:#006400;
-    margin-top: 20px; /* Separación entre la imagen secundaria y el título */
+
+ .titulo{
+    font-weight: bold; /* Ajusta el grosor del texto */
+    font-family: "Bebas Neue", sans-serif;
+    color: #4f836f;
+    font-size: 3.5rem; /* El título principal, más grande */
+    text-align: left;   /* Alineado a la izquierda */
+    line-height: 1;   /* Espacio entre líneas */
+    margin-bottom: 15px; /* Espacio inferior para separar el título del subtítulo */
 }
 
-.contenedor-texto {
-    display: flex;
-    flex-direction: column; /* Alinea el texto en columna */
-    align-items: flex-start; /* Alinea el texto de izquierda a derecha */
-    justify-content: center; /* Centra verticalmente */
-    width: 60%; /* Ajusta el ancho del contenedor */
-    margin: 0 auto; /* Centra el contenedor */
-    margin-top: 10px; /* Espacio entre el título y el texto */
+.subtitulo {
+    font-weight: bold; /* Ajusta el grosor del texto */
+    font-family: "Bebas Neue", sans-serif;
+    color: #4f836f;
+    font-size: 2.5rem;  /* Tamaño para el subtítulo "SINOPSIS" */
+    text-align: left;   /* Alinea el subtítulo a la izquierda */
+    line-height: 1.5;   /* Espacio entre líneas */
+    margin-bottom: 10px; /* Espacio inferior para separar del texto */
 }
 
-.texto-titulo {
-    font-size: 1.2rem;
-    font-family: Arial, sans-serif;
-    line-height: 1.5;
-    color:gray;
-}
-
-.texto-titulo strong {
+.texto {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9rem; /* Tamaño más pequeño para el texto */
+    text-align: left;   /* Alinea el texto a la izquierda */
+    line-height: 1.6;   /* Espacio entre líneas */
+    color: rgb(92, 91, 91);
+    
+    
+}  
+.texto strong {
+    
+    color: black;
     font-weight: bold; /* Negrita para el texto después de los dos puntos */
+    
+}
+.caja24 {
+    grid-column: 1 / span 2; /* Esta subcaja ocupará ambas columnas */
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Tres columnas de igual tamaño */
+    gap: 20px; /* Espacio entre columnas */
 }
 
+.subtitulo2 {
+    grid-column: 1 / span 2; /* El subtítulo ocupará las dos columnas */
+    font-weight: bold; /* Ajusta el grosor del texto */
+    font-family: "Bebas Neue", sans-serif;
+    color: #4f836f;
+    font-size: 2.5rem;  /* Tamaño para el subtítulo "SINOPSIS" */
+    text-align: left;   /* Alinea el subtítulo a la izquierda */
+    line-height: 1.5;   /* Espacio entre líneas */
+    margin-bottom: 10px; /* Espacio inferior para separar del texto */
+    
+}
+
+#col1 {
+    grid-column: 1; /* Ubica este texto en la primera columna */
+}
+
+#col2 {
+    grid-column: 2; /* Ubica este texto en la segunda columna */
+}
+
+#col3 {
+    grid-column: 3; /* Ubica este texto en la tercera columna */
+}
 
 
 
