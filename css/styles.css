@@ -49,9 +49,10 @@ body {
 
 .logo-container {
     position: absolute;
-    height: 100px;
-    top: 40px; /* Ajusta el espacio desde la parte superior según sea necesario */
-    right: 20px; /* Ajusta el espacio desde el borde derecho según sea necesario */
+    width: 40%;
+    height: auto;
+    top: 20%; /* Ajusta el espacio desde la parte superior según sea necesario */
+    margin-left: 90%; /* Ajusta el espacio desde el borde derecho según sea necesario */
     z-index: 10; /* Asegura que el logo esté sobre otros elementos */
 }
 
@@ -154,6 +155,67 @@ body {
     width: 100%; /* Hace que la imagen ocupe el 100% del ancho de la tarjeta */
     height: auto; /* Mantiene la proporción original de la imagen */
     display: block; /* Asegura que la imagen se muestre como un bloque */
+}
+/* Reducir el espacio entre las cards */
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.col-md-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Centrar la última card */
+.row:last-child {
+    justify-content: center;
+}
+
+.flex-container-footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column; /* Alinea las sub-cajas verticalmente */
+    align-items: center;
+    flex-wrap: nowrap; /* Asegura que las cajas principales no se envuelvan */
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+    height: auto; /* Ajusta según tus necesidades */
+    gap: 10px; /* Espacio entre las cajas principales */
+}
+.caja1-footer, .caja2-footer, .caja3-footer{
+   
+    width: 50%; /* Ajusta según el tamaño deseado */
+    height: auto;
+    display: flex;
+    
+    position: relative;
+    padding: 10px; /* Ajusta según el diseño deseado */
+    box-sizing: border-box; /* Asegura que el padding y border se incluyan en el tamaño total */
+}
+.caja1-footer{
+    width: 15%;
+    height: auto;
+}
+.caja1-footer img{
+    margin-left: 5%;
+    width: 90%;
+    height: auto;
+}
+.caja2-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    font-family: "Bebas Neue", sans-serif;
+    color:gray;
+    font-size: 1.2rem;
+}
+.caja3-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    width: 100%;
+    height: auto;
 }
 
 
