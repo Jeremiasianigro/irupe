@@ -1,30 +1,28 @@
+@font-face {
+    font-family: 'Captain America';
+    src: url('../font/american_captain/American-Captain.ttf') format('truetype'); /* Ajusta el formato si usas otro tipo de archivo */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bernett';
+    src: url('../font/barnett/Barnett.otf') format('truetype'); /* Ajusta el formato si usas otro tipo de archivo */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 
 body {
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Captain America';
     font-weight: 400;
     font-style: normal;
     background-color: white;
     padding-top: 70px;
 }
 
-.navbar-logo {
-    height: 100px; /* Ajusta la altura del logo según tus necesidades */
-    width: auto; /* Mantiene la proporción original del logo */
-    max-height: 100%; /* Asegura que el logo no se desborde fuera del contenedor */
-    
-}
-.BarraNavegacion {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%; /* Asegura que el navbar ocupe todo el ancho de la pantalla */
-    z-index: 1050; /* Asegura que el navbar esté por encima de otros elementos */
-}
-
-
-
 .principal {
-    margin-top: 100px;
     position: relative;
     overflow: hidden;
     height: 70vh;
@@ -51,14 +49,14 @@ body {
     position: absolute;
     width: 40%;
     height: auto;
-    top: 20%; /* Ajusta el espacio desde la parte superior según sea necesario */
+    top: 10%; /* Ajusta el espacio desde la parte superior según sea necesario */
     margin-left: 90%; /* Ajusta el espacio desde el borde derecho según sea necesario */
     z-index: 10; /* Asegura que el logo esté sobre otros elementos */
 }
 
 .logo-image {
-    height: 80px; /* Ajusta la altura del logo según tus necesidades */
-    width: auto; /* Mantiene la proporción original del logo */
+    width: 120px; /* Ajusta la altura del logo según tus necesidades */
+    height: auto;/* Mantiene la proporción original del logo */
 }
 
 .principal iframe {
@@ -69,16 +67,32 @@ body {
 .section-label {
     position: absolute;
     bottom: 40px; /* Ajusta la distancia desde la parte inferior */
-    left: 20px; /* Ajusta la distancia desde el borde izquierdo */
-    font-size: 5rem; /* Tamaño del texto, puedes ajustarlo */
-    line-height: 1;
+    left: 60px; /* Ajusta la distancia desde el borde izquierdo */
     color: white; /* Color del texto */
-    font-family: "Bebas Neue", sans-serif; /* Aplica la fuente */
     z-index: 10; /* Asegura que el texto esté sobre el video */
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Agrega una sombra para mejorar la visibilidad */
 }
 
+.section-label h1{
+    font-family: 'Captain America';
+    font-size: 7rem; /* Tamaño del texto, puedes ajustarlo */
+    line-height: 1;
+
+}
+.section-label h2{
+    font-family: 'Bernett';
+    font-size: 7rem; /* Tamaño del texto, puedes ajustarlo */
+
+}
+.section-label h3{
+    font-family: 'Captain America';
+    font-size: 5rem; /* Tamaño del texto, puedes ajustarlo */
+
+}
+
+
 .direccion {
+    font-family: 'Captain America';
     display: flex;
     justify-content: center;
     align-items: center;
@@ -206,7 +220,7 @@ body {
     justify-content: center;
     width: 100%;
     height: auto;
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Captain America';
     color:gray;
     font-size: 1.2rem;
 }

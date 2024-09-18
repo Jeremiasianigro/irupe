@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Captain America';
+    src: url('../font/american_captain/American-Captain.ttf') format('truetype'); /* Ajusta el formato si usas otro tipo de archivo */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
 .flex-container {
    
     
@@ -99,7 +107,7 @@
 
  .titulo{
     font-weight: bold; /* Ajusta el grosor del texto */
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Captain America';
     color: #4f836f;
     font-size: 4rem; /* El título principal, más grande */
     text-align: left;   /* Alineado a la izquierda */
@@ -109,7 +117,7 @@
 
 .subtitulo {
     font-weight: bold; /* Ajusta el grosor del texto */
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Captain America';
     color: #4f836f;
     font-size: 2.5rem;  /* Tamaño para el subtítulo "SINOPSIS" */
     text-align: left;   /* Alinea el subtítulo a la izquierda */
@@ -145,7 +153,7 @@
 .subtitulo2 {
     grid-column: 1 / span 2; /* El subtítulo ocupará las dos columnas */
     font-weight: bold; /* Ajusta el grosor del texto */
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Captain America';
     color: #4f836f;
     font-size: 2.5rem;  /* Tamaño para el subtítulo "SINOPSIS" */
     text-align: left;   /* Alinea el subtítulo a la izquierda */
@@ -166,5 +174,35 @@
     grid-column: 3; /* Ubica este texto en la tercera columna */
 }
 
+.flex-container-trailer{
+
+   
+    padding: 20px;
+    display: flex;
+    flex-wrap: nowrap; /* Asegura que las cajas principales no se envuelvan */
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+    width: 100%;
+    height: auto; /* Ajusta según tus necesidades */
+    gap: 10px; /* Espacio entre las cajas principales */
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.caja1-trailer{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
+.caja2-trailer{
+    margin-top: 20px;
+    width: 20%;
+    height: auto;
+}
+
+.caja2-trailer img{
+    width: 100%;
+    height: auto;
+}
 
 
