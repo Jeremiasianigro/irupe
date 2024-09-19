@@ -1,3 +1,17 @@
+@font-face {
+    font-family: 'Captain America';
+    src: url('../font/american_captain/American-Captain.ttf') format('truetype'); /* Ajusta el formato si usas otro tipo de archivo */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bernett';
+    src: url('../font/barnett/Barnett.otf') format('truetype'); /* Ajusta el formato si usas otro tipo de archivo */
+    font-weight: normal;
+    font-style: normal;
+  }
+
 .flex-container {
     border: 1px solid black;
     background-color: brown;
@@ -103,7 +117,7 @@
 
  .titulo{
     font-weight: bold; /* Ajusta el grosor del texto */
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Captain America';
     color: #4f836f;
     font-size: 3.5rem; /* El título principal, más grande */
     text-align: left;   /* Alineado a la izquierda */
@@ -113,7 +127,7 @@
 
 .subtitulo {
     font-weight: bold; /* Ajusta el grosor del texto */
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Captain America';
     color: #4f836f;
     font-size: 2.5rem;  /* Tamaño para el subtítulo "SINOPSIS" */
     text-align: left;   /* Alinea el subtítulo a la izquierda */
@@ -149,7 +163,7 @@
 .subtitulo2 {
     grid-column: 1 / span 2; /* El subtítulo ocupará las dos columnas */
     font-weight: bold; /* Ajusta el grosor del texto */
-    font-family: "Bebas Neue", sans-serif;
+    font-family: 'Captain America';
     color: #4f836f;
     font-size: 2.5rem;  /* Tamaño para el subtítulo "SINOPSIS" */
     text-align: left;   /* Alinea el subtítulo a la izquierda */
@@ -174,8 +188,8 @@
 .flex-container-trailer{
 
     border: 1px solid black;
-    background-color: brown;
-    padding: 20px;
+    background-color: red;
+    /* padding: 20px; */
     display: flex;
     flex-wrap: nowrap; /* Asegura que las cajas principales no se envuelvan */
     overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
@@ -206,55 +220,30 @@
     width: 100%;
     height: auto;
 }
-
-
-
-
-
-
-
-.flex-container-footer{
-    padding: 20px;
+.caja1-trailer-vacio{
+    background-color: #31836c;
+    width: 100%;
+    height: 70%;
     display: flex;
-    flex-direction: column; /* Alinea las sub-cajas verticalmente */
+    flex-direction: column;
     align-items: center;
-    flex-wrap: nowrap; /* Asegura que las cajas principales no se envuelvan */
-    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
-    height: auto; /* Ajusta según tus necesidades */
-    gap: 10px; /* Espacio entre las cajas principales */
+    line-height: 1.5; 
 }
-.caja1-footer, .caja2-footer, .caja3-footer{
-   
-    width: 50%; /* Ajusta según el tamaño deseado */
-    height: auto;
-    display: flex;
-    
-    position: relative;
-    padding: 10px; /* Ajusta según el diseño deseado */
-    box-sizing: border-box; /* Asegura que el padding y border se incluyan en el tamaño total */
+
+.caja1-trailer-vacio h3{
+    margin-top: 200px;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+
 }
-.caja1-footer{
-    width: 15%;
-    height: auto;
+.caja1-trailer-vacio h2{
+    color: white;
+    font-family: 'Captain America'; 
+    font-size: 1.7rem;
+
 }
-.caja1-footer img{
-    margin-left: 5%;
-    width: 90%;
-    height: auto;
-}
-.caja2-footer{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-    font-family: "Bebas Neue", sans-serif;
-    color:gray;
-    font-size: 1.2rem;
-}
-.caja3-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    width: 100%;
-    height: auto;
-}
+
+
+
+

@@ -89,6 +89,10 @@ body {
     font-size: 5rem; /* Tamaño del texto, puedes ajustarlo */
 
 }
+.imagen-principal img{
+    width: 100%;
+    height: auto;
+}
 
 
 .direccion {
