@@ -226,45 +226,67 @@
     font-size: 1.7rem;
 
 }
+
+.flex-container-prensa{
+    /* padding: 20px; */
+    display: flex;
+    flex-wrap: nowrap; /* Asegura que las cajas principales no se envuelvan */
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+    width: 100%;
+    height: auto; /* Ajusta según tus necesidades */
+    gap: 10px; /* Espacio entre las cajas principales */
+    flex-direction: column;
+    align-items: center;
+
+}
 .prensa{
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 18%;
     font-family: 'Captain America';
     color: #4f836f;
 }
 
-.caja1-prensa{
+.caja1-prensa {
     width: 100%;
-    height: 300px;
+    height: 420px;
     padding-right: 10%;
     display: flex;
     flex-direction: row-reverse;
     gap: 10px;
-
+    align-items: center; /* Asegura que las subcajas no muevan el contenedor */
+}
+.caja2-prensa {
+    padding: 10px;
+    margin-top: 100px;
+    width: 40%;
+    height: auto;
+    position: relative; /* Esto asegura que no se vea afectada */
 }
 .subcaja-prensa {
     margin-top: 50px;
     padding: 5px;
-    background-color: #4f836f;
     overflow: hidden;
     width: 150px;
     height: 150px;
-    transition: all 0.3s ease; /* Transición suave */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+    transition: all 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    flex-shrink: 0; /* Evita que las subcajas se reduzcan o alteren el flujo */
 }
 .caja1-prensa img{
     width: 100%;
     height: auto;
 }
-
-.subcaja-prensa:hover {
-    background-color: #4f836f;
-    width: 300px;
-    height: 300px;
-    transform: scale(1.05); /* Un pequeño zoom */
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4); /* Sombra más pronunciada */
+.caja2-prensa img{
+    width: 100%;
+    height: auto;
 }
 
+.subcaja-prensa:hover {
+    width: 350px;
+    height: 350px;
+    transform: scale(1.05);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.4);
+}
 .subcaja-prensa:hover img{
     width: 100%;
     height: auto;
