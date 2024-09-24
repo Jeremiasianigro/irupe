@@ -9,158 +9,206 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/plantillasindividuales.css">
     <title>Películas IRUPE</title>
 </head>
 <body>
-    <header>
-        <!-- seccion NavBar -->
-        <section class="BarraNavegacion">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand mx-auto" href="/index.php">
-                <img src="img/LogoTransparente.png" alt="Logo IRUPE" class="navbar-logo">
-            </a>
-        </div>
-    </nav>
+
+<section class="encabezado">
+
+            <div class="caja-encabezado">
+                <img src="img/logos/LOGO 1.png" alt="">
+
+            </div>
+
 </section>
 
-    </header>
-    <main>
+   
+<main>
     <section class="principal">
-    <div class="video-container">
-         <div style="padding:41.89% 0 0 0;position:relative;">
-            <iframe src="https://player.vimeo.com/video/200684940?badge=0&amp;autopause=0&amp;autoplay=1&amp;muted=1&amp;player_id=0&amp;app_id=58479" 
-                frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
-                style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VIGILIA trailer">
-            </iframe>
-    </div> 
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
 
+                <div class="carousel-item active">
+                    <div style="padding:41.89% 0 0 0;position:relative;">
+                        <iframe src="https://player.vimeo.com/video/200684940?badge=0&autopause=0&autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0" 
+                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;" title="VIGILIA trailer">
+                        </iframe>
+                    </div>
+                </div>
 
+                <div class="carousel-item">
+                   
+                    <div style="padding:56.25% 0 0 0;position:relative;">
+                        <iframe src="https://player.vimeo.com/video/1003213145?badge=0&autopause=0&autoplay=1&muted=1&loop=1&title=0&byline=0&portrait=0" 
+                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;" title="PRIMITIVA_TRAILER">
+                        </iframe>
+                    </div>
+                </div>
 
-    <!-- Reemplaza el texto por una imagen -->
-    <div class="logo-container">
-        <img src="img/LogoTransparente.png" alt="Logo IRUPE" class="logo-image">
+                <div class="carousel-item">
+                   
+                <div style="padding:56.25% 0 0 0;position:relative;">
+                        <iframe src="https://player.vimeo.com/video/1003239295?badge=0&amp;autopause=0&amp;autoplay=1&amp;muted=1&amp;loop=1&amp;player_id=0&amp;app_id=58479" 
+                            frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write" 
+                            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+                            title="TRAIN JAM TRAILER SUB INGLES- 26.02.23- (1)">
+                        </iframe>
+                    </div> 
+               </div>
+                
+               
+                
+      </div>
+   
+</section>
+
+<section class="direccion">
+    <a href="html/films.html" ><h2>FILMS</h2></a>
+    <a href="html/series.html"><h2>SERIES</h2></a>
+    <a href="html/teatro.html"><h2>TEATRO</h2></a>
+    <a href="html/talleres.html"><h2>TALLERES</h2></a>
+    <a href="html/equipo.html"><h2>EQUIPO</h2></a>
+    <a href="html/contacto.html"><h2>CONTACTO</h2></a>
+</section>
+
+<section class="flex-container-slaider">
+    <div class="inner-slider">
+
+            <div class="caja-slaider">
+                <a href="html/amadoPadreYEsposo.html">
+                        <img src="img/home/amado.jpg" alt="">
+                </a>
+
+            </div>
+            <div class="caja-slaider">
+                <a href="html/ciculo.html">
+                    <img src="img/home/circulo.jpg" alt="">
+                </a>
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+
+            <!-- Duplicamos las cajas para efecto de cinta continua -->
+            <div class="caja-slaider">
+            <a href="html/amadoPadreYEsposo.html">
+                        <img src="img/home/amado.jpg" alt="">
+                </a>
+            </div>
+            <div class="caja-slaider">
+            <a href="html/ciculo.html">
+                    <img src="img/home/circulo.jpg" alt="">
+                </a>
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+            <div class="caja-slaider">
+
+            </div>
+
     </div>
 </section>
 
 
-        <section class="direccion">
-            <a href="html/films.html"><h2>FILMS</h2></a>
-            <a href="html/series.html"><h2>SERIES</h2></a>
-            <a href="html/teatro.html"><h2>TEATRO</h2></a>
-            <a href="html/equipo.html"><h2>EQUIPO</h2></a>
-            <a href="html/contacto.html"><h2>CONTACTO</h2></a>
-        </section>
-
-        <!-- seccion cards -->
-        <section class="CardsPeliculas py-5">
-            <div class="container">
-                <div class="row">
-                    <!-- Card 1 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <a href="html/templateIndiv.htm" class="card-link">
-                                <img src="img/trainJam.jpg" class="card-img-top" alt="Película 1">
-                                <div class="card-info">
-                                    <h5 class="card-title">Título de la Película 1</h5>
-                                    
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <a href="pagina-pelicula-2.html" class="card-link">
-                                <img src="img/1.jpg" class="card-img-top" alt="Película 2">
-                                <div class="card-info">
-                                    <h5 class="card-title">Título de la Película 2</h5>
-                                    <p class="card-text">Descripción breve de la película.</p>
-                                    <a href="pagina-pelicula-2.html" class="btn btn-primary">Más información</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Card 3 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <a href="pagina-pelicula-3.html" class="card-link">
-                                <img src="img/1.jpg" class="card-img-top" alt="Película 3">
-                                <div class="card-info">
-                                    <h5 class="card-title">Título de la Película 3</h5>
-                                    <p class="card-text">Descripción breve de la película.</p>
-                                    <a href="pagina-pelicula-3.html" class="btn btn-primary">Más información</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section class="cardsSeries py-5 bg-light">
-            <div class="container">
-                <h3 class="text-center mb-4">Series</h3>
-                <div class="row">
-                    <!-- Card 1 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <a href="pagina-serie-1.html" class="card-link">
-                                <img src="img/trainJam.jpg" class="card-img-top" alt="Serie 1">
-                                <div class="card-info">
-                                    <h5 class="card-title">Título de la Serie 1</h5>
-                                    <p class="card-text">Descripción breve de la serie.</p>
-                                    <a href="pagina-serie-1.html" class="btn btn-primary">Más información</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Card 2 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <a href="pagina-serie-2.html" class="card-link">
-                                <img src="img/1.jpg" class="card-img-top" alt="Serie 2">
-                                <div class="card-info">
-                                    <h5 class="card-title">Título de la Serie 2</h5>
-                                    <p class="card-text">Descripción breve de la serie.</p>
-                                    <a href="pagina-serie-2.html" class="btn btn-primary">Más información</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- Card 3 -->
-                    <div class="col-md-4 mb-4">
-                        <div class="card">
-                            <a href="pagina-serie-3.html" class="card-link">
-                                <img src="img/1.jpg" class="card-img-top" alt="Serie 3">
-                                <div class="card-info">
-                                    <h5 class="card-title">Título de la Serie 3</h5>
-                                    <p class="card-text">Descripción breve de la serie.</p>
-                                    <a href="pagina-serie-3.html" class="btn btn-primary">Más información</a>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
     </main>
+    <footer class="flex-container-footer">
+        <div class="caja3-footer">
+            <section class="direccion">
+                <a href="html/films.html"><h2>FILMS</h2></a>
+                <a href="html/series.html"><h2>SERIES</h2></a>
+                <a href="html/teatro.html"><h2>TEATRO</h2></a>
+                <a href="html/talleres.html"><h2>TALLERES</h2></a>
+                <a href="html/equipo.html"><h2>EQUIPO</h2></a>
+                <a href="html/contacto.html"><h2>CONTACTO</h2></a>
+            </section>
 
-    <footer class="bg-dark text-white text-center py-3">
-        <h5>Acá van los enlaces de las redes sociales</h5>
+        </div>
+        <div class="caja1-footer">
+            <img src="img/logos/LOGO 1.png" alt="">
+        </div>
+        <div class="caja2-footer">
+            <p>COPYRIGHT GRUPO IRUPÉ - 2024 - TODOS LOS DERECHOS RESERVADOS</p>
+        </div>
+        
     </footer>
 
     <!-- script de la carpeta js -->
   
-
+    
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" 
     integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" 
     integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     <script src="https://player.vimeo.com/api/player.js"></script>
-    <script src="js/script.js"></script>
+    
+    
 </body>
 </html>
-
-
-

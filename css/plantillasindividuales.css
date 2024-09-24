@@ -410,5 +410,76 @@
     align-items: center;
 
 }
+.encabezado{
+   
+    display: flex;
+    width: 100%;
+    height: 200px; /* Ajusta según tus necesidades */
+    flex-direction: column;
+    align-items: center;
+}
+
+.caja-encabezado{
+    
+    width: 12%;
+    height: auto;
+}
+.caja-encabezado img{
+    width: 100%;
+    height: auto;
+}
+.flex-container-slaider {
+    background-color: red;
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Oculta las cajas fuera del área visible */
+    gap: 10px;
+    position: relative;
+}
+
+.flex-container-slaider .inner-slider {
+    display: flex;
+    animation: moveSlider 20s linear infinite; /* Mueve el contenedor de manera continua */
+    width: calc(200px * 28); /* El ancho total del contenedor debe ser el ancho de todas las cajas */
+}
+
+.caja-slaider {
+    background-color: aqua;
+    border: 1px solid black;
+    padding: 5px;
+    width: 150px;
+    height: 200px;
+    transition: transform 0.3s; /* Transición suave al hacer hover */
+}
+.caja-slaider img{
+    width: 100%;
+    height: 100%;
+}
+
+/* Agrandar la caja cuando se hace hover */
+.caja-slaider:hover {
+    transform: scale(1.2);
+}
+
+/* Pausar el slider al hacer hover */
+.flex-container-slaider:hover .inner-slider {
+    animation-play-state: paused;
+}
+
+/* Animación continua */
+@keyframes moveSlider {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%); /* Mueve las cajas a la izquierda */
+    }
+}
+
+
+
 
 
