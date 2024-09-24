@@ -74,6 +74,15 @@
     <a href="html/contacto.html"><h2>CONTACTO</h2></a>
 </section>
 
+<section class="encabezado">
+
+            <div class="caja-encabezado">
+                <img src="img/logos/LOGO 2.png" alt="">
+
+            </div>
+
+</section>
+
 <section class="flex-container-slaider">
     <div class="inner-slider">
 
@@ -89,39 +98,73 @@
                 </a>
             </div>
             <div class="caja-slaider">
+            <a href="html/laNiniaDeLaCosecha.html">
+                    <img src="img/home/cosecha.jpg" alt="">
+                </a>
+            </div>
+            <div class="caja-slaider">
+            <a href="html/laDamaDeBlanco.html">
+                    <img src="img/home/blanco.jpg" alt="">
+                </a>
+            </div>  
+            <div class="caja-slaider">
+            <a href="html/laElegida.html">
+                    <img src="img/home/elegida.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/laFlorDelIrupe.html">
+                    <img src="img/home/irupe.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/laGiocondaMecanica.html">
+                    <img src="img/home/gioconda.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/laMujerDeEspaldas.html">
+                    <img src="img/home/espaldas.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/laVenadita.html">
+                    <img src="img/home/venadita.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/primitiva.html">
+                    <img src="img/home/primitiva.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/puraSangre.html">
+                    <img src="img/home/purasangre.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/trainJam.html">
+                    <img src="img/home/trainjam.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/unPlanPerfecto.html">
+                    <img src="img/home/planperfecto.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
-
-            </div>
-            <div class="caja-slaider">
-
-            </div>
-            <div class="caja-slaider">
+            <a href="html/vigilia.html">
+                    <img src="img/home/vigilia.jpg" alt="">
+                </a>
 
             </div>
 
@@ -137,43 +180,91 @@
                 </a>
             </div>
             <div class="caja-slaider">
+            <a href="html/laNiniaDeLaCosecha.html">
+                    <img src="img/home/cosecha.jpg" alt="">
+                </a>
+            </div>
+            <div class="caja-slaider">
+            <a href="html/laDamaDeBlanco.html">
+                    <img src="img/home/blanco.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/laElegida.html">
+                    <img src="img/home/elegida.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/laFlorDelIrupe.html">
+                    <img src="img/home/irupe.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/laGiocondaMecanica.html">
+                    <img src="img/home/gioconda.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/laMujerDeEspaldas.html">
+                    <img src="img/home/espaldas.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/laVenadita.html">
+                    <img src="img/home/venadita.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/primitiva.html">
+                    <img src="img/home/primitiva.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/puraSangre.html">
+                    <img src="img/home/purasangre.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/trainJam.html">
+                    <img src="img/home/trainjam.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
+            <a href="html/unPlanPerfecto.html">
+                    <img src="img/home/planperfecto.jpg" alt="">
+                </a>
 
             </div>
             <div class="caja-slaider">
-
-            </div>
-            <div class="caja-slaider">
+            <a href="html/vigilia2.html">
+                    <img src="img/home/vigilia2.jpg" alt="">
+                </a>
 
             </div>
 
     </div>
+</section>
+<section class="descripcion">
+                <h1>
+                    Sobre Nosotros
+                </h1>
+                <p>
+                Grupo irupé es una productora multidisciplinaria dedicada a la creación de películas de ficción, 
+                documentales y obras de teatro. Creemos en la magia de contar historias que nos resuenan, 
+                cuestionan y conmueven. Nos involucramos de manera integral en cada etapa del proceso creativo, 
+                asegurándonos de que cada proyecto se desarrolla con la calidad y el cuidado que merece. 
+                Nos mueve la pasión por lo que hacemos.  
+                </p>
+
 </section>
 
 
