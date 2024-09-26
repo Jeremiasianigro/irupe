@@ -9,21 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/plantillasindividuales.css">
+    <link rel="stylesheet" href="css/stylesindividuales.css">
     <title>Películas IRUPE</title>
 </head>
 <body>
 
-<section class="encabezado">
 
-            <div class="caja-encabezado">
-                <img src="img/logos/LOGO 1.png" alt="">
-
-            </div>
-
-</section>
-
-   
 <main>
     <section class="principal">
         <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
@@ -73,7 +64,7 @@
     <a href="html/equipo.html"><h2>EQUIPO</h2></a>
     <a href="html/contacto.html"><h2>CONTACTO</h2></a>
 </section>
-
+<br>
 <section class="encabezado">
 
             <div class="caja-encabezado">
@@ -253,6 +244,8 @@
 
     </div>
 </section>
+<br>
+<br>
 <section class="descripcion">
                 <h1>
                     Sobre Nosotros

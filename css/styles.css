@@ -100,7 +100,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px; /* Espacio entre los elementos */
+    gap: 100px; /* Espacio entre los elementos */
     margin-top: 50px; /* Ajusta el margen superior según sea necesario */
 }
 
@@ -111,7 +111,7 @@ body {
 }
 
 .direccion a.active {
-    color: #006400; /* Verde oscuro para el enlace activo */
+    color: rgb(33, 135, 111); /* Verde oscuro para el enlace activo */
 }
 
 .direccion h2 {
@@ -235,6 +235,8 @@ body {
     width: 100%;
     height: auto;
 }
+
+
 
 
 
