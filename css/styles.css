@@ -96,6 +96,7 @@ body {
 
 
 .direccion {
+    width: 100%;
     font-family: 'Captain America';
     display: flex;
     justify-content: center;
