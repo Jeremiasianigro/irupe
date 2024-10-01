@@ -100,7 +100,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px; /* Espacio entre los elementos */
+    gap: 8%; /* Espacio entre los elementos */
     margin-top: 50px; /* Ajusta el margen superior según sea necesario */
 }
 
@@ -122,7 +122,7 @@ body {
 .card {
     transition: transform 0.3s ease, opacity 0.3s ease;
     overflow: hidden; /* Asegura que el contenido no se desborde */
-    border: 1px solid black; /* Agrega un borde negro de 1px */
+   /* border: 1px solid black; /* Agrega un borde negro de 1px */
     border-radius: 5px; /* Agrega bordes redondeados, opcional */
     width: 100%; /* Hace que la tarjeta ocupe el 100% del ancho de su contenedor */
     max-width: 300px; /* Ajusta el ancho máximo de la tarjeta */
@@ -200,7 +200,7 @@ body {
     height: auto; /* Ajusta según tus necesidades */
     gap: 10px; /* Espacio entre las cajas principales */
 }
-.caja1-footer, .caja2-footer, .caja3-footer{
+.caja1-footer, .caja2-footer{
    
     width: 50%; /* Ajusta según el tamaño deseado */
     height: auto;
@@ -209,6 +209,10 @@ body {
     position: relative;
     padding: 10px; /* Ajusta según el diseño deseado */
     box-sizing: border-box; /* Asegura que el padding y border se incluyan en el tamaño total */
+}
+.caja3-footer{
+    width: 100%;
+    height: auto;
 }
 .caja1-footer{
     width: 15%;
@@ -228,13 +232,7 @@ body {
     color:gray;
     font-size: 1.2rem;
 }
-.caja3-footer{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
-    width: 100%;
-    height: auto;
-}
+
 
 
 
