@@ -444,3 +444,71 @@
 }
 
 
+
+.flex-container-contacto {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Aumenta la separación entre los campos */
+    padding: 40px; /* Aumenta el padding general */
+    align-items: center; /* Botón al lado opuesto (izquierda) */
+}
+
+.flex-container-contacto div {
+    width: 100%;
+    position: relative;
+}
+
+input[type="text"],
+input[type="mail"],
+textarea {
+    width: 100%;
+    padding: 15px; /* Aumenta el padding dentro de los inputs */
+    border: 2px solid #4f836f; 
+    border-radius: 5px;
+    background: linear-gradient(to right, white 50%, white 50%);
+    color: #4f836f;
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 20px; /* Más espacio entre los inputs */
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: #4f836f; /* Placeholder blanco */
+    opacity: 1; /* Asegura que el placeholder sea visible */
+}
+
+textarea {
+    background: linear-gradient(to bottom, white 50%, white 50%);
+    position: relative;
+}
+
+textarea::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border: 2px solid #4f836f; /* Verde Agua */
+    border-radius: 10px;
+    z-index: -1;
+}
+
+button[type="submit"] {
+    background-color: #4f836f; /* Verde Agua */
+    color: white;
+    padding: 15px 30px; /* Aumenta el tamaño del botón */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: flex-start; /* Botón alineado al lado opuesto (izquierda) */
+    margin-top: 20px; /* Aumenta la separación del botón */
+}
+
+button[type="submit"]:hover {
+    background-color: #4f836f;
+}
+
