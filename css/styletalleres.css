@@ -1,0 +1,171 @@
+@font-face {
+    font-family: 'Captain America';
+    src: url('../font/american_captain/American-Captain.ttf') format('truetype'); /* Ajusta el formato si usas otro tipo de archivo */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: 'Bernett';
+    src: url('../font/barnett/Barnett.otf') format('truetype'); /* Ajusta el formato si usas otro tipo de archivo */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.flex-container-taller{
+
+    margin: 10%; 
+    margin-top: 5%; 
+    display: flex;
+    flex-wrap: nowrap; /* Asegura que las cajas principales no se envuelvan */
+    overflow-x: auto; /* Permite el desplazamiento horizontal si es necesario */
+    width: 80%;
+    height: auto; /* Ajusta según tus necesidades */
+    gap: 20px; /* Espacio entre las cajas principales */
+    flex-direction: column;
+    align-items: center;
+
+}
+.boxtaller1{
+    display: flex;
+    align-items: flex-start;
+    padding: 5px;
+    width: 80%;
+    height: auto;
+    background-color:#C4DAD2;
+    
+
+}
+ .boxtaller2{
+    display: flex;
+    align-items: flex-start;
+    padding: 5px;
+    width: 80%;
+    height: auto;
+    background-color:rgb(33, 135, 111);
+    
+
+}
+.boxtaller3{
+    display: flex;
+    width: 80%;
+    height: auto;
+   
+    flex-direction: row;
+}
+.boxtaller4{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    
+}
+.boxtaller5{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    
+    border: 2px solid rgb(33, 135, 111);
+}
+.boxtaller6{
+    width: 80%;
+    height: auto;
+    padding: 10px;
+    
+}
+.boxtaller1 h1, .boxtaller2 h1{
+    font-family: 'Captain America';
+    font-size: 200%; /* Ajusta el tamaño del texto */
+    width: 100%; /* El texto ocupa el 70% de la subcaja */
+    
+    margin: 0; /* Elimina márgenes adicionales */
+    color: white; /* Color del texto, puedes ajustarlo si es necesario */
+}
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Opcional: mantiene el color del texto del contenedor */
+}
+
+.subbox1{
+    width: 60%;
+    height: auto;
+    padding: 10px;
+    
+
+}
+.subbox2{
+    width: 40%;
+    height: auto;
+   
+
+}
+.imagentaller{
+    width: 90%;
+    height: auto;
+}
+.imagentaller img{
+    width: 100%;
+    height: auto;
+}
+
+.titulotaller{
+    
+    font-family: 'Captain America';
+    color: rgb(33, 135, 111);
+    font-size: 2.3rem;  /* Tamaño para el subtítulo "SINOPSIS" */
+    text-align: left;   /* Alinea el subtítulo a la izquierda */
+    line-height: 1.5;   /* Espacio entre líneas */
+    margin-bottom: 5px; /* Espacio inferior para separar del texto */
+}
+
+.subtitulotaller {
+    
+    font-family: 'Captain America';
+    color: rgb(33, 135, 111);
+    font-size: 1.8rem;  /* Tamaño para el subtítulo "SINOPSIS" */
+    text-align: left;   /* Alinea el subtítulo a la izquierda */
+    line-height: 1.5;   /* Espacio entre líneas */
+    margin-bottom: 5px; /* Espacio inferior para separar del texto */
+    
+}
+
+.textotaller {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem; /* Tamaño más pequeño para el texto */
+    text-align: left;   /* Alinea el texto a la izquierda */
+    line-height: 1.6;   /* Espacio entre líneas */
+    color: rgb(92, 91, 91);
+    
+    
+}  
+.textotaller strong {
+    
+    color: black;
+    font-weight: bold; /* Negrita para el texto después de los dos puntos */
+    
+}
+#verde{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(33, 135, 111);
+    font-size: 1rem; /* Tamaño más pequeño para el texto */
+    text-align: left;   /* Alinea el texto a la izquierda */
+    line-height: 1.6;   /* Espacio entre líneas */
+}
+#subtexto{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bold;
+    color:black;
+    font-size: 0.8rem; /* Tamaño más pequeño para el texto */
+    text-align: left;   /* Alinea el texto a la izquierda */
+    line-height: 1.6;   /* Espacio entre líneas */
+}
+#subtextoVerde{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(33, 135, 111);
+    font-size: 0.8rem; /* Tamaño más pequeño para el texto */
+    text-align: left;   /* Alinea el texto a la izquierda */
+    line-height: 1.6;   /* Espacio entre líneas */
+}

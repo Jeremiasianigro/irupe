@@ -140,6 +140,7 @@
     font-weight: bold; /* Negrita para el texto después de los dos puntos */
     
 }
+
 .caja24 {
     grid-column: 1 / span 2; /* Esta subcaja ocupará ambas columnas */
     width: 100%;
